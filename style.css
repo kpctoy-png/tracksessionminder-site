@@ -102,3 +102,4 @@ footer img{height:46px;width:auto;margin-bottom:6px}
 .excl{background:var(--orange);color:#fff;font-weight:700;font-size:14px;text-align:center;border-bottom:3px solid var(--navy)}
 .excl .wrap{padding-top:8px;padding-bottom:8px}
 .excl a{color:#fff;text-decoration:underline}
+p,li,h1,h2,h3{text-wrap:pretty}
