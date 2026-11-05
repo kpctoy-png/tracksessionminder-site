@@ -106,3 +106,5 @@ p,li,h1,h2,h3{text-wrap:pretty}
 .excl-note{margin:16px 0 0;background:var(--navy);color:var(--blue);font-weight:800;font-size:15px;line-height:1.45;padding:12px 14px;border-radius:12px;border-left:6px solid var(--orange)}
 .excl-note a{color:var(--orange)}
 .excl{font-weight:800}
+.step{padding:20px}
+.step::before{position:static;margin-bottom:12px}
