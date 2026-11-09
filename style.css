@@ -127,3 +127,12 @@ footer{padding-bottom:84px}
 .watch .wn b{display:block;font-size:11px;color:#9DC9EC;margin-bottom:2px}
 .watch .wn.emg{background:#B3261E;border:2px solid #F26A21}
 .watch .wn.emg b{color:#fff}
+/* "phone not on you?" watch callouts */
+.watchbar{background:var(--navy);color:#fff;font-size:14px;text-align:center;border-bottom:3px solid var(--orange)}
+.watchbar .wrap{padding-top:7px;padding-bottom:7px}
+.watchbar b{color:var(--blue)}
+.watchbar a{color:var(--orange);white-space:nowrap}
+.callout{background:var(--navy);color:#fff;border-left:6px solid var(--orange);border-radius:12px;padding:12px 14px;margin:0 0 14px;font-size:16px}
+.callout b{color:var(--blue);display:block}
+section.watchcall{background:#fff;border-bottom:4px solid var(--orange)}
+#watch{scroll-margin-top:70px}
