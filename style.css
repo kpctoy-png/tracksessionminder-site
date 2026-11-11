@@ -136,3 +136,8 @@ footer{padding-bottom:84px}
 .callout b{color:var(--blue);display:block}
 section.watchcall{background:#fff;border-bottom:4px solid var(--orange)}
 #watch{scroll-margin-top:70px}
+
+/* founder card (about page) */
+.founder-card{display:flex;gap:16px;align-items:center;background:#fff;border:2px solid var(--navy);border-left:8px solid var(--orange);border-radius:10px;padding:14px 16px;margin:18px 0}
+.founder-card img{width:84px;height:84px;object-fit:cover;border-radius:50%;flex:none}
+.founder-card a{font-weight:700}
