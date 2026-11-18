@@ -146,3 +146,16 @@ section.watchcall{background:#fff;border-bottom:4px solid var(--orange)}
 .card .tag{display:inline-block;vertical-align:middle;font-size:11px;font-weight:800;letter-spacing:.03em;text-transform:uppercase;background:#FFF4EC;color:#B4470C;border:1.5px solid var(--orange);border-radius:999px;padding:1px 8px;margin-left:6px}
 .card p.ex{background:var(--blue-soft);border-radius:10px;padding:10px 12px;font-size:15px;margin-top:10px}
 section.alt .card p.ex{background:#fff}
+
+/* Proven at the track */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0}
+.stat{background:var(--navy);color:#fff;border-radius:14px;padding:14px 12px;text-align:center;border-bottom:5px solid var(--orange)}
+.stat b{display:block;font-size:34px;line-height:1.1;color:var(--blue)}
+.stat span{font-size:14px}
+.events{display:grid;grid-template-columns:3fr 2fr;gap:16px;margin-bottom:12px}
+.ev{background:var(--blue-soft);border:3px solid var(--navy);border-radius:14px;padding:16px 18px}
+.ev .when{font-size:13px;font-weight:700;color:var(--orange);text-transform:uppercase;letter-spacing:.04em}
+.ev h3{margin:4px 0 8px;color:var(--navy);font-size:19px}
+.ev p{margin:0}
+.did{margin:0;padding-left:20px}.did li{margin:4px 0}
+@media(max-width:820px){.events{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}}
